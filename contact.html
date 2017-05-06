@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">>
+	<meta charset="UTF-8">
 	<title>Sarah Diaz-Rivera</title>
 	<!--link css-->
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
@@ -36,16 +36,21 @@
 		<div class="content">
 
 			<div id="aboutme">
-			<h2>About Me</h2>
+			<h2>Contact</h2>
 			</div>
 
-			<div id="pic"></div> 
+			<form action="mailto:sjdiazrivera@gmail.com" method="post" enctype="text/plain">
+  				Name<br>
+  				<input class="input" type="text" name="name" placeholder="John Smith"><br>
+  				Email<br>
+  				<input class="input" type="text" name="email" placeholder="example@gmail.com"><br>
+  				Message<br>
+  				<textarea name="comment"></textarea><br>
 
-			<p class="paragraph">I'm a graphic designer learning to code! I earned my BFA in Graphic Design from Wichita State University and am excited to add to my skillset.</p><br>
-			<p class="paragraph">Some things I enjoy are video games. I am currently enjoying <em>No Man's Sky</em>, but I've also enjoyed playing <em>Star Wars Battlefront II</em>, <em>Call of Duty</em>, and <em>Grand Theft Auto V</em>.</p><br>
-			<p class="paragraph">I also enjoy baking and movies. I love making chocolate chip cookies, and my favorite movie is either <em>Dr. Strangelove</em> or<em> Patton</em>.
-			</p>
-		</div>
+  				<input id="submit-button" type="submit" value="Submit">
+
+			</form>
+			</div>
 	
 	<aside class="connect">
 		<div id="connectme">
