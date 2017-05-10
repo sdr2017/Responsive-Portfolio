@@ -274,11 +274,13 @@ textarea {
 
 
 /* for desktop */
-@media only screen and (min-width: 769px) {
+
+@media only screen and (max-width: 980px) and (min-width: 769px) {
 #logo {
 	float: left;
-	width: 50%;
+	width: 40%;
 	height: 90px;
+	margin-left: 5%;
 	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
 	line-height: 90px;
 	font-size: 30px;
@@ -298,6 +300,7 @@ h2 {font-size: 30px;
 
  #masthead {
   position: fixed;
+  max-width: 980px;
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
@@ -322,41 +325,37 @@ header {
 	width: 100%;
 }
 
-#menu {
- 	float: right;
-	margin: 34px 20px 20px 20px;
-	text-align: center;
-	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
-	color: #777777;
- 	 }
-
-li {
-	display: inline;
+nav {
+	float: right;
+	margin-right: 5%;
 }
 
-.menu-items {
-	margin: 0px 15px 0px 15px;
-	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
-	color: #777777;
-	font-style: normal;
-	text-decoration: none;
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin: 35px 15px 0px 0px;
+  font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
 }
 
-#right {
-	margin: 0px 0px 0px 15px;
-}
-
-#other-right {
-	margin: 0px 15px 0px 0px;
+nav a:first-child {
+  border-left: 0 none;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 .wrapper {
-	width: 55%;
+	width: 100%;
 	margin: 0px 5% 0px 5%;
+	padding-top: 110px;
 }
 
 .content {
 	float: left;
+	width: 50%;
 	background-color: #ffffff;
 	border-style: solid;
 	border-color: #dddddd;
@@ -365,16 +364,11 @@ li {
 	margin: 20px 0px 20px 0px;
 }
 
-#pic {
+.pic {
 	width: 50%;
-	height: 250px;
+	height: auto;
 	float: left;
-	margin: 0px 30px 0px 0px;
-	background-image: url(../images/pic-with-wu.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 0px -15px;
+	margin: 0px 20px 20px 0px;
 }
 
 .paragraph {
@@ -395,13 +389,13 @@ li {
 
 .connect {
 	height: 200px;
-	float: right;
+	float: left;
 	background-color: #ffffff;
 	border-style: solid;
 	border-color: #dddddd;
 	border-width: 1px;
 	padding: 0px 30px 30px 30px;
-	margin: 0px;
+	margin: 20px 0px 0px 20px;
 }
 
 #connectme {
