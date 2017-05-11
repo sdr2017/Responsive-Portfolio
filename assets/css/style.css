@@ -744,7 +744,7 @@ nav a:first-child {
 .connect {
 	height: 200px;
 	width: auto;
-	float: right;
+	clear: both;
 	background-color: #ffffff;
 	border-style: solid;
 	border-color: #dddddd;
