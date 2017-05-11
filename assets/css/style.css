@@ -280,7 +280,7 @@ textarea {
 	float: left;
 	width: 40%;
 	height: 90px;
-	margin-left: 5%;
+	margin-left: 10%;
 	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
 	line-height: 90px;
 	font-size: 30px;
@@ -300,25 +300,17 @@ h2 {font-size: 30px;
 
  #masthead {
   position: fixed;
-  max-width: 980px;
+  height: 90px;
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
-  overflow: auto;
   color: #fff;
   background: #fff;
   border-bottom: 2px solid #ccc;
 }
 
 
-header {
- 	height: 90px;
- 	width: 100%;
- 	background-color: #ffffff;
- 	margin: 0px 0px 20px 0px;
- 	padding: 0px;
- 	border-bottom: 2px solid #cccccc;
-  }
+
 
 
 	#hope {
@@ -327,7 +319,8 @@ header {
 
 nav {
 	float: right;
-	margin-right: 5%;
+	padding-right: 10%;
+	display: inline-block;
 }
 
 nav a {
@@ -347,25 +340,28 @@ nav a:first-child {
   padding-left: 0px;
 }
 
+nav a:last-child {
+	margin-right: 0px;
+}
+
 .wrapper {
 	width: 100%;
-	margin: 0px 5% 0px 5%;
 	padding-top: 110px;
 }
 
 .content {
 	float: left;
-	width: 50%;
+	width: 35%;
 	background-color: #ffffff;
 	border-style: solid;
 	border-color: #dddddd;
 	border-width: 1px;
 	padding: 0px 30px 30px 30px;
-	margin: 20px 0px 20px 0px;
+	margin: 40px 0px 40px 10%;
 }
 
 .pic {
-	width: 50%;
+	width: 100%;
 	height: auto;
 	float: left;
 	margin: 0px 20px 20px 0px;
@@ -389,13 +385,14 @@ nav a:first-child {
 
 .connect {
 	height: 200px;
-	float: left;
+	float: right;
+	display: inline-block;
 	background-color: #ffffff;
 	border-style: solid;
 	border-color: #dddddd;
 	border-width: 1px;
-	padding: 0px 30px 30px 30px;
-	margin: 20px 0px 0px 20px;
+	padding: 0px 30px 0px 30px;
+	margin: 40px 10% 0px 20px;
 }
 
 #connectme {
@@ -525,6 +522,10 @@ nav a:first-child {
   padding-left: 0px;
 }
 
+nav a:last-child {
+	margin-right: 0px;
+}
+
 .wrapper {
 	width: 100%;
 }
@@ -563,14 +564,15 @@ nav a:first-child {
 }
 
 .connect {
-	height: 200px;
-	float: left;
+	height: 160px;
+	width: auto;
+	clear: both;
 	background-color: #ffffff;
 	border-style: solid;
 	border-color: #dddddd;
 	border-width: 1px;
 	padding: 0px 30px 30px 30px;
-	margin: 20px;
+	margin: 0px 20px 20px 20px;
 }
 
 #connectme {
@@ -742,14 +744,14 @@ nav a:first-child {
 }
 
 .connect {
-	height: 200px;
+	height: 160px;
 	width: auto;
 	clear: both;
 	background-color: #ffffff;
 	border-style: solid;
 	border-color: #dddddd;
 	border-width: 1px;
-	padding: 0px 0px 30px 0px;
+	padding: 0px 0px 30px 30px;
 	margin: 0px 20px 20px 20px;
 }
 
