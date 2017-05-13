@@ -487,15 +487,15 @@ nav a:last-child {
 }
 
 .content {
-	float: left;
+	width: auto;
+	clear: both;
 	background-color: #ffffff;
 	border-style: solid;
 	border-color: #dddddd;
 	border-width: 1px;
 	padding: 0px 30px 30px 30px;
-	margin: 20px;
+	margin: 0px 20px 20px 20px;
 }
-
 
 #aboutme {
 	padding: 0px;
@@ -599,12 +599,7 @@ footer {
 	margin: auto;
 }
 
- 
-
-
 }
-
-
 
 /* for mobile */
 @media only screen and (max-width: 640px) {
@@ -689,7 +684,8 @@ nav a:first-child {
 }
 
 .content {
-	float: left;
+	width: auto;
+	clear: both;
 	background-color: #ffffff;
 	border-style: solid;
 	border-color: #dddddd;
@@ -698,6 +694,19 @@ nav a:first-child {
 	margin: 20px;
 }
 
+.pic {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin: 0px 0px 20px 0px;
+}
+
+.paragraph {
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	color: #777777;
+	font-size: 16px;
+	line-height: 32px;
+}
 
 #aboutme {
 	padding: 0px;
@@ -707,6 +716,8 @@ nav a:first-child {
 	height: 100px;
 	border-bottom: 3px solid #dddddd;	
 }
+
+
 
 /* CONTACT PAGE */
 
