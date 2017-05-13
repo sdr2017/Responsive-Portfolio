@@ -112,58 +112,39 @@ nav a:last-child {
 	border-bottom: 3px solid #dddddd;	
 }
 
-/* POTFOLIO PAGE */
+/* CONTACT PAGE */
 
-.projects {
-	width: 275px;
-	height: 205px;
-	background-color: #777;
-	margin: 0px;
-	float: left;
-	position: relative;
+
+form {
+	font: 18px 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	color: #777;
 }
 
-#hangman {
-	background-image: url(../images/portfolio/hangman.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
+
+.input {
+	width: 100%;
+	height: 35px;
+	border: 1px solid #ddd;
+	margin: 5px 0px 20px 0px;
+	font: 14px 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	text-indent: 10px;
 }
 
-#rpgGame {
-	background-image: url(../images/portfolio/rpgGame.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
+textarea {
+	width: 100%;
+	height: 200px;
+	border: 1px solid #ddd;
+	margin: 5px 0px 20px 0px;
 }
 
-#trivia {
-	background-image: url(../images/portfolio/trivia.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
 
-#widget {
-	background-image: url(../images/portfolio/widget.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#rps {
-	background-image: url(../images/portfolio/rps.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.title {
-	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
-	font-size: 22px;
-	color: #fff;
-	text-align: center;
-	line-height: 60px;
-	width: 275px;
-	height: 60px;
+#submit-button {
+	width: 116px;
+	height: 41px;
 	background-color: #4aaaa5;
-	position: absolute;
-	top: 136px;
+	border: none;
+	font: 18px 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	color: #fff;
 }
 
 
@@ -323,58 +304,38 @@ nav a:last-child {
 }
 
 
-/* POTFOLIO PAGE */
+/* CONTACT PAGE */
 
-.projects {
-	width: 275px;
-	height: 205px;
-	background-color: #777;
-	margin: 0px;
-	float: left;
-	position: relative;
+
+form {
+	font: 18px 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	color: #777;
 }
 
-#hangman {
-	background-image: url(../images/portfolio/hangman.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
+.input {
+	width: 100%;
+	height: 35px;
+	border: 1px solid #ddd;
+	margin: 5px 0px 20px 0px;
+	font: 14px 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	text-indent: 10px;
 }
 
-#rpgGame {
-	background-image: url(../images/portfolio/rpgGame.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
+textarea {
+	width: 100%;
+	height: 200px;
+	border: 1px solid #ddd;
+	margin: 5px 0px 20px 0px;
 }
 
-#trivia {
-	background-image: url(../images/portfolio/trivia.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
 
-#widget {
-	background-image: url(../images/portfolio/widget.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#rps {
-	background-image: url(../images/portfolio/rps.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.title {
-	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
-	font-size: 22px;
-	color: #fff;
-	text-align: center;
-	line-height: 60px;
-	width: 275px;
-	height: 60px;
+#submit-button {
+	width: 116px;
+	height: 41px;
 	background-color: #4aaaa5;
-	position: absolute;
-	top: 136px;
+	border: none;
+	font: 18px 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	color: #fff;
 }
 
 
@@ -545,58 +506,38 @@ nav a:last-child {
 	border-bottom: 3px solid #dddddd;	
 }
 
-/* POTFOLIO PAGE */
+/* CONTACT PAGE */
 
-.projects {
-	width: 275px;
-	height: 205px;
-	background-color: #777;
-	margin: 0px;
-	float: left;
-	position: relative;
+
+form {
+	font: 18px 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	color: #777;
 }
 
-#hangman {
-	background-image: url(../images/portfolio/hangman.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
+.input {
+	width: 100%;
+	height: 35px;
+	border: 1px solid #ddd;
+	margin: 5px 0px 20px 0px;
+	font: 14px 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	text-indent: 10px;
 }
 
-#rpgGame {
-	background-image: url(../images/portfolio/rpgGame.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
+textarea {
+	width: 100%;
+	height: 200px;
+	border: 1px solid #ddd;
+	margin: 5px 0px 20px 0px;
 }
 
-#trivia {
-	background-image: url(../images/portfolio/trivia.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
 
-#widget {
-	background-image: url(../images/portfolio/widget.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#rps {
-	background-image: url(../images/portfolio/rps.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.title {
-	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
-	font-size: 22px;
-	color: #fff;
-	text-align: center;
-	line-height: 60px;
-	width: 275px;
-	height: 60px;
+#submit-button {
+	width: 116px;
+	height: 41px;
 	background-color: #4aaaa5;
-	position: absolute;
-	top: 136px;
+	border: none;
+	font: 18px 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	color: #fff;
 }
 
 
@@ -767,60 +708,39 @@ nav a:first-child {
 	border-bottom: 3px solid #dddddd;	
 }
 
-/* POTFOLIO PAGE */
+/* CONTACT PAGE */
 
-.projects {
-	width: 275px;
-	height: 205px;
-	background-color: #777;
-	margin: 0px;
-	float: left;
-	position: relative;
+
+form {
+	font: 18px 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	color: #777;
 }
 
-#hangman {
-	background-image: url(../images/portfolio/hangman.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
+.input {
+	width: 100%;
+	height: 35px;
+	border: 1px solid #ddd;
+	margin: 5px 0px 20px 0px;
+	font: 14px 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	text-indent: 10px;
 }
 
-#rpgGame {
-	background-image: url(../images/portfolio/rpgGame.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
+textarea {
+	width: 100%;
+	height: 200px;
+	border: 1px solid #ddd;
+	margin: 5px 0px 20px 0px;
 }
 
-#trivia {
-	background-image: url(../images/portfolio/trivia.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
 
-#widget {
-	background-image: url(../images/portfolio/widget.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#rps {
-	background-image: url(../images/portfolio/rps.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.title {
-	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
-	font-size: 22px;
-	color: #fff;
-	text-align: center;
-	line-height: 60px;
-	width: 275px;
-	height: 60px;
+#submit-button {
+	width: 116px;
+	height: 41px;
 	background-color: #4aaaa5;
-	position: absolute;
-	top: 136px;
+	border: none;
+	font: 18px 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	color: #fff;
 }
-
 
 .connect {
 	height: 160px;
