@@ -115,55 +115,30 @@ nav a:last-child {
 /* POTFOLIO PAGE */
 
 .projects {
-	width: 275px;
-	height: 205px;
-	background-color: #777;
-	margin: 0px;
+	width: 44%;
+	margin-bottom: 20px;
+	margin-right: 6%;
 	float: left;
 	position: relative;
 }
 
-#hangman {
-	background-image: url(../images/portfolio/hangman.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
+
+.image {
+	width: 100%;
 }
 
-#rpgGame {
-	background-image: url(../images/portfolio/rpgGame.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#trivia {
-	background-image: url(../images/portfolio/trivia.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#widget {
-	background-image: url(../images/portfolio/widget.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#rps {
-	background-image: url(../images/portfolio/rps.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
 
 .title {
 	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
 	font-size: 22px;
 	color: #fff;
 	text-align: center;
-	line-height: 60px;
-	width: 275px;
-	height: 60px;
+	line-height: 50px;
+	width: 100%;
+	height: 50px;
 	background-color: #4aaaa5;
 	position: absolute;
-	top: 136px;
+	top: 120px;
 }
 
 
@@ -326,55 +301,29 @@ nav a:last-child {
 /* POTFOLIO PAGE */
 
 .projects {
-	width: 275px;
-	height: 205px;
-	background-color: #777;
-	margin: 0px;
+	width: 100%;
+	margin-bottom: 20px;
 	float: left;
 	position: relative;
 }
 
-#hangman {
-	background-image: url(../images/portfolio/hangman.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
+
+.image {
+	width: 100%;
 }
 
-#rpgGame {
-	background-image: url(../images/portfolio/rpgGame.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#trivia {
-	background-image: url(../images/portfolio/trivia.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#widget {
-	background-image: url(../images/portfolio/widget.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#rps {
-	background-image: url(../images/portfolio/rps.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
 
 .title {
 	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
 	font-size: 22px;
 	color: #fff;
 	text-align: center;
-	line-height: 60px;
-	width: 275px;
-	height: 60px;
+	line-height: 50px;
+	width: 100%;
+	height: 50px;
 	background-color: #4aaaa5;
 	position: absolute;
-	top: 136px;
+	top: 150px;
 }
 
 
@@ -548,56 +497,32 @@ nav a:last-child {
 /* POTFOLIO PAGE */
 
 .projects {
-	width: 275px;
-	height: 205px;
-	background-color: #777;
-	margin: 0px;
+	width: 44%;
+	margin-bottom: 20px;
+	margin-right: 6%;
 	float: left;
 	position: relative;
 }
 
-#hangman {
-	background-image: url(../images/portfolio/hangman.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
+
+.image {
+	width: 100%;
 }
 
-#rpgGame {
-	background-image: url(../images/portfolio/rpgGame.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#trivia {
-	background-image: url(../images/portfolio/trivia.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#widget {
-	background-image: url(../images/portfolio/widget.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#rps {
-	background-image: url(../images/portfolio/rps.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
 
 .title {
 	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
 	font-size: 22px;
 	color: #fff;
 	text-align: center;
-	line-height: 60px;
-	width: 275px;
-	height: 60px;
+	line-height: 50px;
+	width: 100%;
+	height: 50px;
 	background-color: #4aaaa5;
 	position: absolute;
-	top: 136px;
+	top: 120px;
 }
+
 
 
 .connect {
@@ -770,43 +695,17 @@ nav a:first-child {
 /* POTFOLIO PAGE */
 
 .projects {
-	width: 275px;
-	height: 205px;
-	background-color: #777;
-	margin: 0px;
+	width: 100%;
+	margin-bottom: 20px;
 	float: left;
 	position: relative;
 }
 
-#hangman {
-	background-image: url(../images/portfolio/hangman.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
+
+.image {
+	width: 100%;
 }
 
-#rpgGame {
-	background-image: url(../images/portfolio/rpgGame.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#trivia {
-	background-image: url(../images/portfolio/trivia.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#widget {
-	background-image: url(../images/portfolio/widget.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#rps {
-	background-image: url(../images/portfolio/rps.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
 
 .title {
 	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
@@ -814,13 +713,12 @@ nav a:first-child {
 	color: #fff;
 	text-align: center;
 	line-height: 60px;
-	width: 275px;
+	width: 100%;
 	height: 60px;
 	background-color: #4aaaa5;
 	position: absolute;
-	top: 136px;
+	top: 160px;
 }
-
 
 .connect {
 	height: 160px;
